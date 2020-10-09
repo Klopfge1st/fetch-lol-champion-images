@@ -1,10 +1,10 @@
 <?php
 
 $baseUrl = 'http://ddragon.leagueoflegends.com/cdn/';
-$version = '10.19.1';
+$version = '10.20.1';
 
 $profileUrl = $baseUrl . $version . '/img/champion/';
-$loadingUrl = $baseUrl . 'cdn/img/champion/loading/';
+$loadingUrl = $baseUrl . 'img/champion/loading/';
 $championsApiData = $baseUrl . $version . '/data/en_US/champion.json';
 
 $file = json_decode(file_get_contents($championsApiData), true);
